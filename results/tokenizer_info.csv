@@ -1,0 +1,16 @@
+tokenizer,repo,loader,vocab_size,fingerprint,note
+GPT-4o,Xenova/gpt-4o,tiktoken,200019,cec2c16190e5,counted with OpenAI's official tiktoken (o200k_base)
+GPT-4,Xenova/gpt-4,tiktoken,100277,ae249d30125c,counted with OpenAI's official tiktoken (cl100k_base)
+Llama 3,unsloth/Llama-3.2-1B,raw,128256,e691b072a3d1,mirror of meta-llama/Llama-3.2-1B tokenizer
+Llama 4,unsloth/Llama-4-Scout-17B-16E-Instruct,raw,201135,db910a721a28,mirror of Meta's Llama 4 Scout tokenizer
+Gemma 3,unsloth/gemma-3-1b-it,raw,262145,91f707d11bc7,mirror of google/gemma-3-1b-it tokenizer
+Mistral NeMo,unsloth/Mistral-Nemo-Base-2407,raw,131072,6259d092a517,Tekken tokenizer; mirror of mistralai repo
+Qwen 3,Qwen/Qwen3-0.6B,raw,151669,24f3932e3324,
+DeepSeek-V3,deepseek-ai/DeepSeek-V3,raw,128815,b685fdece6c9,
+Sarvam-1,sarvamai/sarvam-1,raw,68096,90a29eb33821,"Indian, Indic-optimised"
+Krutrim-2,krutrim-ai-labs/Krutrim-2-instruct,raw,131072,6259d092a517,Indian
+IndicBERT v2,ai4bharat/IndicBERTv2-MLM-only,raw,250000,14ba0fca9989,"Indian, encoder"
+MuRIL,google/muril-base-cased,hf,197258,6c9e3d755525,"Google India, encoder"
+mBERT,google-bert/bert-base-multilingual-cased,raw,119547,8895dca3aeef,encoder baseline
+XLM-R,FacebookAI/xlm-roberta-base,raw,250002,4717d99f0f85,encoder baseline
+BLOOM,bigscience/bloom-560m,raw,250680,347ba147562a,"multilingual LLM, trained with Indic data"
